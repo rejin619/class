@@ -1,0 +1,152 @@
+            					LINUX
+Linux Command 
+
+/root
+delete  = rm-rf
+to delete all operating system = rm-rf*
+
+Structure of Linux folder
+
+root           admin
+home        all user account
+etc             all configuration file
+opt            all installation program file
+tmp           temporary file
+Sudo         get root permission without being in root
+Su              switch user
+
+VI command 
+W= write
+Q= read/Quit
+ ! = quit
+ I = Insert/ editable
+Esc= Escape
+If filename exist vi filename ~~ open file
+If filename doesn’t exist, then vi creates file
+cd:         change directory
+pwd:      present working directory
+rm:         Remove
+mv:        Move/Rename
+head:    -N 5 Nepal 
+tail:        -N 5 Nepal
+tail          –f nepal
+ps:          process
+top:        real time process
+ls:            list
+touch:    creates new file
+cat:         view content of the file
+df-h:       disk space
+free-m:   to check memory
+lscpu :     to check cpu
+cp:           copy
+ln-s:          softlink
+ln:            hardlink
+ls-ltr:      shows parameter (filetype date size)/ for softlink
+l = for link 
+d = for directory 
+- = file
+ls –li = shows inode
+ls -ltri
+| = pipe
+grep= 
+ps= process 
+it shows process 
+1 a
+2 b
+3 c
+4 d
+5 e
+6 f
+to see content of d 
+ps | grep ‘d’
+
+softlink                                                        hardlink
+can be created for directory             cannot be created for directory
+
+on deletation of original file               doesn’t get effected 
+the link file does get effected
+
+different inode			same inode	(INODE IS A PROCESS IDENTIFICATION, IT IS 											FILE OR FOLDER ID) 
+
+ln-s  					ln
+
+cat filename | wc –l –to count lines
+
+
+echo “GULLU is Jitendra” >> gullu
+
+touch .gullu – to create a hidden file.
+		(VI=VISUAL INTERFRANCE)
+: / searchword (n=forward search N=backward search) search word in vi after file is opened
+: %s/word/change word 			replace word with
+: %s/word/changeword/gi 			replace word with case incentives
+: set number   					display number line
+:10    						go to line number 10
+:set nonumber 				remove number line
+gg 						go to top line
+G   						go to bottom line
+Shift + $  					go to last of the line 
+Shift + ^					 go to first of the line
+Esc+o 						go to next line without pressing I 
+Esc+O 						go to top of the line without pressing I 
+w 						go to forward word 
+b						go to backward word 
+ctlr+shift+r					redo
+
+
+	(FILE DIREECTORY PERMISSION)
+
+CHMOD-Change mode
+-rwx----------------- root--------------    root             bikram
+Permission	     user		          group           filename
+		  (individual Person)
+
+Read = R         Write = W          Execute = X
+R-4
+W-2
+X-1
+    7
+rwx=7
+
+chmod u-rwx filename --- revoke all permission from user/owner
+chmod 0-rwx filename—revoke all permission from other
+chmod g-rwx filename--- revoke all permission from group
+  chown—change owner
+
+1.	Chown root filename  --makes root owner of the file 
+2.	Chown   :root   filename ---- provides ownership to group
+3.	Chown –R root directory    -- provides ownership to all
+4.	Chown root:root filename  --- provides ownership to users and group
+
+
+				(CREATE USER)
+/ETC/PASSWD--- TOO SEE LIST OF USER
+/ETC/GROUP-----TOO SEE GROUP
+/HOME/
+ID SUMAN ---
+USERADD REJIN –CREATES USER
+GROUPADD REJIN1---- CREATES GROUP
+USERADD REJIN REJIN1
+PASSWD REJIN—SETS PASSWORD 
+ 
+
+(GIT/GITHUB VS SUB VERSION (SVN))
+GIT ----(Version Control Software)
+SVN---Sub Version 
+hg—Mercurial
+
+Git                                   vs                                  Github|BitBucket
+Backend                                                                     FrontEnd
+						     Stroage
+						     Website
+
+Version Control Software- it’s the snapshot of the work 
+Apple – commit---snapshot
+Apple 1--- commit—snapshot
+Apple 1 2---- commit--- snapshot
+“test.txt”
+Version Control is just like restore point we have on Windows
+			(BASH SCRIPTING)
+
+
+
