@@ -158,7 +158,5 @@ git push origin master--- pushes the changes to remote repo
 git log----- checks the log 
 git status----- checks the status of untracked file
 branch --- (working directory) ---- git checkout branchname
-
-hello rejin. How is your stomach?
-My stomach is fine now. 
+ 
 
