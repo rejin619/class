@@ -149,4 +149,13 @@ Version Control is just like restore point we have on Windows
 			(BASH SCRIPTING)
 
 
+Git Commands 
+git clone ---- pulls the directory locally
+git pull ----- updates the local directory with remote directory 
+git add .  or filename | tracks the file 
+git commit -m "msg goes here" ---- records the track
+git push origin master--- pushes the changes to remote repo
+git log----- checks the log 
+git status----- checks the status of untracked file
+branch --- (working directory) ---- git checkout branchname
 
