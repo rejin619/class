@@ -1,4 +1,4 @@
-            					LINUX
+           					LINUX
 Linux Command 
 
 /root
@@ -18,8 +18,8 @@ Su              switch user
 VI command 
 W= write
 Q= read/Quit
- ! = quit
- I = Insert/ editable
+! = quit
+I = Insert/ editable
 Esc= Escape
 If filename exist vi filename ~~ open file
 If filename doesn’t exist, then vi creates file
@@ -79,9 +79,9 @@ touch .gullu – to create a hidden file.
 		(VI=VISUAL INTERFRANCE)
 : / searchword (n=forward search N=backward search) search word in vi after file is opened
 : %s/word/change word 			replace word with
-: %s/word/changeword/gi 			replace word with case incentives
-: set number   					display number line
-:10    						go to line number 10
+: %s/word/changeword/gi 		replace word with case incentives
+: set number   				display number line
+:10    					go to line number 10
 :set nonumber 				remove number line
 gg 						go to top line
 G   						go to bottom line
@@ -158,5 +158,4 @@ git push origin master--- pushes the changes to remote repo
 git log----- checks the log 
 git status----- checks the status of untracked file
 branch --- (working directory) ---- git checkout branchname
- 
 
