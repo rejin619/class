@@ -170,4 +170,10 @@ git branch
 * D
 git checkout A - creates a branch if branch exists it takes to the snapshot.
 
- 
+       SVN 						GIT
+Centralized VCS                                  Decentralized (Distributed) 
+  Central repo						Branch
+   Code clone				  	 (A)   (B) (C)   (D)
+  Working Directory
+no push command 					git push 
+SVN commit 						
