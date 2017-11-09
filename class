@@ -159,3 +159,4 @@ git log----- checks the log
 git status----- checks the status of untracked file
 branch --- (working directory) ---- git checkout branchname
 
+hello rejin. How is your stomach?
