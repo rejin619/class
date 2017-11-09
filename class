@@ -158,4 +158,16 @@ git push origin master--- pushes the changes to remote repo
 git log----- checks the log 
 git status----- checks the status of untracked file
 branch --- (working directory) ---- git checkout branchname
-revert / reset 
+revert / reset
+repo - url- linux
+git clone repo url 
+cd linux 
+git branch 
+*master----it is a working directory
+* A
+* B
+* C
+* D
+git checkout A - creates a branch if branch exists it takes to the snapshot.
+
+ 
