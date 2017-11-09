@@ -158,4 +158,4 @@ git push origin master--- pushes the changes to remote repo
 git log----- checks the log 
 git status----- checks the status of untracked file
 branch --- (working directory) ---- git checkout branchname
-
+revert / reset 
