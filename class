@@ -176,4 +176,13 @@ Centralized VCS                                  Decentralized (Distributed)
    Code clone				  	 (A)   (B) (C)   (D)
   Working Directory
 no push command 					git push 
-SVN commit 						
+SVN commit
+SVN co                                                  git clone
+svn update                                              git pull
+svn add                                                 git add
+svn commit -m "msg"                                     git commit -m "msg"
+XXXXX 						        git push
+svn merge                                               git merge
+svn log                                                 git log
+svn status                                              git status
+svn revert                                              git revert
