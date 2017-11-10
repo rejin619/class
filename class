@@ -186,3 +186,5 @@ svn merge                                               git merge
 svn log                                                 git log
 svn status                                              git status
 svn revert                                              git revert
+
+Gullu KEra kha 
